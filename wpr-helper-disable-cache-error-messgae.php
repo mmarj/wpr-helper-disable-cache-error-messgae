@@ -34,7 +34,9 @@ defined( 'ABSPATH' ) or die();
 add_filter( 'do_rocket_generate_caching_files', '__return_false' );
 
 
-/*// To disable WP_CACHE persistent true value for WP-Rocket
+/*
+// Confuse in between do_rocket_generate_caching_files & set_rocket_wp_cache_define_false function
+// To disable WP_CACHE true value for WP-Rocket
 function set_rocket_wp_cache_define_false( $turn_it_on ) {
     return 'false';
 }
