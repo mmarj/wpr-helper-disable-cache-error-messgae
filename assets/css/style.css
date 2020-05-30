@@ -1,0 +1,8 @@
+.notice-error {
+	display: none;
+    opacity:  0; 
+}
+.notice-warning {
+	display: none;
+    opacity:  0;
+}
